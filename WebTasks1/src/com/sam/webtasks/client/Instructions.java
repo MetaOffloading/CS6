@@ -138,7 +138,7 @@ public class Instructions {
         case 10:
 			i = "You have now completed the experiment."
 					+ "Please click on the link below to return to the survey and complete the first session:<br><br>"
-					+ "<b><a href=\"https://uclpsych.eu.qualtrics.com/jfe/form/SV_dojGwYhhWyflvrE?PROLIFIC_PID=" 
+					+ "<b><a href=\"" 
  					+ SessionInfo.participantID + "\">"
  					+ "CLICK HERE</a></b>";
 			break;
